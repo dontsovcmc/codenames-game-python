@@ -1,0 +1,38 @@
+button {
+  width: 20%;
+  padding: 10px;
+  margin: 0 auto;
+  border: none;
+  color: black;
+  cursor: pointer;
+  font-size: 32px;
+}
+.none-button {
+    background: white;
+}
+.red-button {
+    background: red;
+}
+.blue-button {
+    background: blue;
+}
+.black-button {
+    background: #555555;
+}
+
+.menu-button {
+  font-size: 16px;
+}
+
+.red {
+  color: red;
+}
+
+.blue {
+  color: blue;
+}
+
+.score {
+  font-size: 32px;
+  padding: 10px;
+}

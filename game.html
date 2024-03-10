@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Игра codenames</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <script>function goto(url) { location.href = url; }</script>
+</head>
+<body>
+    %buttons%
+    </br>
+    <div align="center">
+        <a class="red score">{{red_score}}</a><button class="menu-button" onclick="goto('/new_game')">Новая игра</button><a class="blue score">{{blue_score}}</a>
+    </div>
+</body>
+</html>
